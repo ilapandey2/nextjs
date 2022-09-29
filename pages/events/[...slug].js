@@ -3,7 +3,7 @@ import {useRouter} from "next/router"
 import {getFilteredEvents} from "../../helpers/api-utils"
 import EventList from "../../components/events/event-list";
 import ResultsTitle from "../../components/events/results-title"
-import Button from "../../components/events/ui/Button";
+import Button from "../../components/events/ui/button";
 import ErrorAlert from "../../components/events/ui/error-alert";
 
 const FilteredEventsPage=(props)=>{
